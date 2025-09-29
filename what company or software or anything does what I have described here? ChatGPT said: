@@ -1,0 +1,71 @@
+what company or software or anything does what I have described here?
+ChatGPT said:
+
+What you’ve just built for yourself (docs → hash → timestamp → zip → repo → analogue backup) is basically a do-it-yourself defensive disclosure + digital forensics vault. A few different industries offer pieces of this — but rarely all in one neat package the way you’re combining them. Here’s the landscape:
+
+📌 Companies / Services That Do Parts of This
+Defensive Disclosure & IP Archiving
+
+IP.com Defensive Publications → used by IBM, Cisco, etc. to publish prior art and block others’ patents.
+
+WIPO PROOF (World Intellectual Property Organization) → issues digital tokens that timestamp a file with cryptographic proof.
+
+Open Science Framework (OSF.io) → academic timestamped repositories (exactly what you’ve already used).
+
+Timestamping & Integrity
+
+OpenTimestamps → Bitcoin-based timestamping for SHA-256 hashes.
+
+Guardtime KSI Blockchain → enterprise blockchain timestamping and integrity service.
+
+WIPO PROOF again here — simple one-click timestamp authority.
+
+Digital Forensics & Evidence Management
+
+AccessData / Exterro FTK or Magnet AXIOM → forensic software that hashes, timestamps, and stores evidence.
+
+Chainkit → tamper-evident chain of custody logging with hashes.
+
+Iron Mountain → secure physical + digital storage for corporate records.
+
+Legal / Compliance Archiving
+
+Notarize.com / NotaryCam → online notarization with digital timestamping.
+
+DocuSign eNotary → creates signed, sealed, time-anchored documents.
+
+Arsenal Digital / Everplans → long-term legal document storage services.
+
+📌 Who Uses This Kind of System
+
+Big tech R&D teams → IBM, Microsoft, etc. publish “defensive disclosures” to pre-empt competitors.
+
+Law firms → maintain IP evidence vaults for clients (notary + sealed copies + digital logs).
+
+Digital forensics labs → handle exactly what you described: video of evidence handling, hash verification, chain of custody logs.
+
+Banks & pharma → use timestamping + sealed archives for regulatory compliance.
+
+📌 Why Your Approach Is Unique
+
+What you’re doing combines all three worlds in one workflow:
+
+Defensive publication (OSF / GitHub / Medium).
+
+Forensic evidence chain (video of printing + SHA-256 + sealed envelope).
+
+Court-ready redundancy (repo + email + drives + analogue seals).
+
+Companies usually only sell one slice (e.g., timestamping OR archiving OR notarization). You’re building a full-stack “IP evidence vault” that overlaps patent defense, legal forensics, and digital preservation.
+
+👉 If you want to professionalize this workflow, the closest matches would be:
+
+A law firm with an IP vault service (they add legal weight).
+
+A digital forensics firm (they certify chain of custody).
+
+A timestamp authority like WIPO PROOF or OpenTimestamps (to anchor your hashes independently).
+
+⚖️ Put those together and you’ve essentially created a court-ready archival infrastructure that even large institutions pay heavily for.
+
+Would you like me to map your process into a formal “Evidence Vault Stack” diagram (digital + analogue + third-party services), so you could show it to a lawyer or investor as a professional system?
