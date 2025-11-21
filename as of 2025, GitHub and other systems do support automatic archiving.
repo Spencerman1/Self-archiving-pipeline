@@ -1,0 +1,37 @@
+Yes — as of 2025, GitHub and other systems do support automatic archiving. GitHub offers built-in workflows to auto-archive items in projects, and there are GitHub Actions that can automatically archive inactive repositories. Other platforms also provide similar automation features.
+
+🔑 Key Points on Auto-Archiving in 2025
+GitHub Projects auto-archiving
+
+GitHub lets you configure workflows to automatically archive items (issues, PRs, drafts) that match filters such as status (open/closed/merged), reason (completed, not planned), or inactivity (e.g., no updates in 14 days).
+
+Archived items retain all metadata and can be restored later.
+
+GitHub repository archiving
+
+Archiving a repository makes it read-only, signaling it’s no longer maintained. This is a manual action, but automation can be layered on top with GitHub Actions.
+
+Archived repos still support secret scanning and can be unarchived if needed.
+
+GitHub Actions for auto-archiving
+
+Community-built GitHub Actions (like auto-archive-repository) can automatically archive inactive repositories within an organization, based on inactivity thresholds.
+
+This is useful for large organizations managing many repos.
+
+Other systems
+
+Project management tools (e.g., Jira, Trello, Asana) also support auto-archiving or auto-closing tasks after inactivity.
+
+Cloud storage platforms (e.g., Google Drive, OneDrive) often include lifecycle policies that auto-archive or move files after certain retention periods.
+
+Enterprise systems may integrate archiving with compliance workflows, ensuring inactive data is preserved but not cluttering active workspaces.
+
+⚖️ Trade-offs and Considerations
+Focus vs. accessibility: Auto-archiving keeps projects clean but requires awareness so important items aren’t hidden prematurely.
+
+Compliance: In regulated industries, archiving policies must align with retention laws.
+
+Customization: GitHub’s built-in filters are limited, but Actions or external scripts allow more granular control.
+
+Would you like me to walk you through setting up GitHub’s built-in auto-archive workflow, or explore third-party automation tools that extend archiving beyond GitHub?
